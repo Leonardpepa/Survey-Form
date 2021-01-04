@@ -103,6 +103,15 @@ label {
   height: 3rem;
   width: 95%;
   background-color: rgb(99, 190, 99);
+  cursor: pointer;
+}
+
+#submit:hover {
+  box-shadow: 0 0.1rem 0.2rem black;
+  transform: scale(1.01);
+}
+#submit:focus {
+  outline: none;
 }
 
 textarea,
@@ -117,4 +126,9 @@ select,
   top: 1.5rem;
   height: 20px;
   margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  textarea {
+    width: fit-content;
+  }
 }
