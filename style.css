@@ -13,11 +13,12 @@ body {
       rgba(136, 136, 206, 0.7)
     ),
     url("background.jpeg");
+  min-width: fit-content;
 }
 
 .main {
-  min-width: 100vh;
-  min-height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   align-content: center;
