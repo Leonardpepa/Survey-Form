@@ -129,8 +129,13 @@ select,
   height: 20px;
   margin: 0;
 }
-@media only screen and (max-width: 768px) {
-  textarea {
-    width: fit-content;
-  }
+
+.textarea-group {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  width: 90%;
 }
